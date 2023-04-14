@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 header, nav {
-  max-width:100%;
+  max-width:relative;
 }
 
 aside {
@@ -32,8 +32,8 @@ header {
 
 main {
   margin-left:20px;
-  margin-right:25px;
-  width:100%;
+  margin-right:20px;
+  width:relative;
   font-family:Comfortaa;
 }
 
@@ -101,7 +101,7 @@ article {
 
 .nav li {
   display:inline-block;
-  padding-left:60px;
+  padding-right:60px;
   color:#2A3949;
 }
 
@@ -128,7 +128,7 @@ a {
 
 /* Create four equal columns that floats next to each other */
 .column {
-  float: left;
+  float: right;
   width: 24%;
 }
 
@@ -144,13 +144,7 @@ a {
   background-color:#69819A;
   padding: 10px;
   color:#2A3949;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
+  width: relative;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
