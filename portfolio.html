@@ -6,91 +6,193 @@
 		
 	<meta charset="utf-8">
 	
-	<title>Miles Wilde Design</title>
+	<!-- "title" is the text that shows up on the tab in your browser -->
 	
+	<title>
+	
+		Miles Wilde Design
+		
+	</title>
+	
+	<!-- fun fact, you can't put comments inside the title tag or else it'll just show up. weird! -->
+	
+	<!-- font linkage -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
-		
+	<!-- end font linkage -->
+	
+    <!-- CSS linkage (this page gets its own CSS page because it's a special little guy) -->	
     <link href="stylewithgallery.css" rel="stylesheet" type="text/css">
+	<!-- end CSS linkage -->
 	
 </head>
 	
 <div class="container">
 
-	<header><a href="mailto:mwilde_ug@nec.edu"><img src="mileswilde.png" width=280px></a></header>
+	<header> <!-- header image / logo with a hyperlink to email address -->
 	
-  <nav>
+		<a href="mailto:mwilde_ug@nec.edu"><img src="mileswilde.png" width=280px></a>
+		
+	</header> <!-- end header image / logo -->
+	
+  <nav> <!-- navigation bar; the CSS makes it do the horizontal part, it's actually just an unordered list -->
+  
     <ul class="nav">
+	
         <li><a href="index.html">Home</a></li>
         <li><a href="aboutme.html">About Me</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
 	    <li><a href="skillz.html">Skills</a></li>
-        </ul>
-  </nav>
+		
+	</ul>
+	
+  </nav> <!-- end navigation bar -->
 	
 
     <main>
 		
 		<article>
+		
         	<div class="subtitle">Portfolio</div>
-      			<div class="gallery">
+			
+      			<div class="gallery" id="fadein">
 
 					<!-- Portfolio Gallery Grid -->
 					<!-- https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp -->
+					
 						<div class="row">
+						
+						<!-- start of rightmost / fourth column -->
+						
 						  <div class="column">
+						  
 							<div class="content">
-							  <a href="#"><img src="blizzard v2.png" alt="Mountains" style="width:100%"></a>
-							  <h3><a href="#">Poor Working Conditions at Activision-Blizzard and How They Affected the Company's Value</a></h3>
+							
+							  <a href="blizzard.html"><img src="blizzard v2.png" alt="Mountains" style="width:100%"></a>
+							  <h3><a href="blizzard.html">Poor Working Conditions at Activision-Blizzard and How They Affected the Company's Value</a></h3>
 							  <p>An infographic detailing the timeline of Activision-Blizzard's various controversies alongside various statistics. Created in Adobe InDesign.</p>
+							  
 							</div>
-						  </div>
-						  <div class="column">
+							
+							<br> <!-- BREAK FOR NEW POST -->
+							
 							<div class="content">
-							  <a href="#"><img src="posterv7.png" alt="Lights" style="width:100%"></a>
-							  <h3><a href="#">Nucleotide Typeface & Poster</a></h3>
+							
+							  <a href="nucleotide.html"><img src="posterv7.png" alt="Lights" style="width:100%"></a>
+							  <h3><a href="nucleotide.html">Nucleotide Typeface & Poster</a></h3>
 							  <p>A poster based on my typeface "Nucleotide". Font was created using Fontstruct, poster was created using Adobe InDesign.</p>
+							  
 							</div>
-							<br>
+							
+						  </div>
+						  
+						<!-- end of rightmost column -->
+						
+						<!-- start of third column -->
+						
+						  <div class="column">
+						  
 							<div class="content">
-							  <a href="#"><img src="splashsmall.png" alt="Lights" style="width:100%"></a>
-							  <h3><a href="#">Picky Chicken App UI Concept</a></h3>
+							
+							  <a href="nucleotide.html"><img src="posterv7.png" alt="Lights" style="width:100%"></a>
+							  <h3><a href="nucleotide.html">Nucleotide Typeface & Poster</a></h3>
+							  <p>A poster based on my typeface "Nucleotide". Font was created using Fontstruct, poster was created using Adobe InDesign.</p>
+							  
+							</div>
+							
+							<br> <!-- BREAK FOR NEW POST -->
+							
+							<div class="content">
+							
+							  <a href="picky.html"><img src="splashsmall.png" alt="Lights" style="width:100%"></a>
+							  <h3><a href="picky.html">Picky Chicken App UI Concept</a></h3>
 							  <p>This is an app UI concept created by using Adobe Illustrator for asset creation and Adobe XD for the prototype itself.</p>
+							  
 							</div>
+							
 						  </div>
+						  
+						<!-- end of third column -->
+						
+						<!-- start of second column -->
+						
 						  <div class="column">
+						  
 							<div class="content">
-							  <a href="#"><img src="SECOND POSTER V8.png" alt="Nature" style="width:100%"></a>
-							  <h3><a href="#">How to Cut a Miles' Hair</a></h3>
+							
+							  <a href="hair.html"><img src="SECOND POSTER V8.png" alt="Nature" style="width:100%"></a>
+							  <h3><a href="hair.html">How to Cut a Miles' Hair</a></h3>
 							  <p>A step-by-step infographic on how to cut my hair made as a parody of pet care instructions. Created in Adobe InDesign and Illustrator.</p>
+							  
 							</div>
-						  </div>
-						  <div class="column">
+							
+							<br> <!-- BREAK FOR NEW POST -->
+							
 							<div class="content">
+							
+							  <a href="nucleotide.html"><img src="posterv7.png" alt="Lights" style="width:100%"></a>
+							  <h3><a href="nucleotide.html">Nucleotide Typeface & Poster</a></h3>
+							  <p>A poster based on my typeface "Nucleotide". Font was created using Fontstruct, poster was created using Adobe InDesign.</p>
+							  
+							</div>
+							
+						  </div>
+						  
+						<!-- end of second column -->
+						
+						<!-- start of leftmost / first column -->
+						
+						  <div class="column">
+						  
+							<div class="content">
+							
 							  <a href="#"><img src="blizzard v2.png" alt="Mountains" style="width:100%"></a>
 							  <h3><a href="#">My Work</a></h3>
 							  <p>Lorem ipsum..</p>
+							  
 							</div>
+							
+							<br> <!-- BREAK FOR NEW POST -->
+							
+					        <div class="content">
+							
+							  <a href="nucleotide.html"><img src="posterv7.png" alt="Lights" style="width:100%"></a>
+							  <h3><a href="nucleotide.html">Nucleotide Typeface & Poster</a></h3>
+							  <p>A poster based on my typeface "Nucleotide". Font was created using Fontstruct, poster was created using Adobe InDesign.</p>
+							  
+							</div>
+							
 						  </div>
-						</div>
+						  
+						<!-- end of leftmost column -->
+						
+						</div> <!-- end portfolio content. this is the closing tag for the "row" class earlier, in case you were wondering -->
+						
+						<!-- start of footer -->
 
 						<div class="content">
-						  <a href="#"><img src="bear.jpg" alt="Bear" style="width:100%"></a>
-						  <h3><a href="#">Some Other Work</a></h3>
-						  <p>Lorem ipsum..</p>
+						
+						  <p>
+						  
+							<h1>Miles Wilde</h1>
+							<br><a href="mailto:mwilde2002@gmail.com">My E-mail</a><br>
+							<br><a href="https://www.linkedin.com/in/miles-wilde-aa219925b/">My LinkedIn</a>
+							
+						  </p>
+						  
 						</div>
 
-					<!-- END MAIN -->
+					<!-- end footer -->
 
 				</div>
-		</article>
+				
+			</article>
 		
-    </main>
+		</main>
 	  
-  </div>
+	</div>
 	
   </div>
-<body>
-</body>
+  
 </html>
